@@ -1,10 +1,9 @@
 using System.Text.Json;
 using System.Xml.Serialization;
-
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
-namespace MeowToolsLib.Config.FileConfig;
+namespace MeowToolsLib.Config.FileConfig.DataProcess;
 
 /// <summary>
 /// 配置序列化

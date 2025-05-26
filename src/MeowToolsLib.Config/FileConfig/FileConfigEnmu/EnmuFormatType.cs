@@ -1,7 +1,7 @@
 namespace MeowToolsLib.Config.FileConfig;
 
-public partial class FileConfigBinding<T>
-{ 
+public static partial class FileConfigEnum
+{
     /// <summary>
     /// 配置文件格式化类型
     /// </summary>
@@ -31,5 +31,5 @@ public partial class FileConfigBinding<T>
         /// 常量命名法（UPPER_CASE）
         /// </summary>
         Constant
-    }
+    }   
 }

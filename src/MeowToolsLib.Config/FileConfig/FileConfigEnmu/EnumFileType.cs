@@ -1,8 +1,8 @@
 namespace MeowToolsLib.Config.FileConfig;
 
 
-public partial class FileConfigBinding<T>
-{ 
+public static partial class FileConfigEnum
+{
     /// <summary>
     /// 配置文件类型枚举
     /// </summary>
@@ -31,6 +31,11 @@ public partial class FileConfigBinding<T>
         /// <summary>
         /// 二进制
         /// </summary>
-        Binary
+        Binary,
+        
+        /// <summary>
+        /// 自动
+        /// </summary>
+        Auto
     }
 }
