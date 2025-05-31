@@ -9,30 +9,28 @@ public abstract class FileConfigAbstract<T> where T : class, new()
 {
     // 配置文件路径
     public abstract string FilePath { get; set; }
-
+    
     // 配置文件类型
     public virtual FileConfigEnum.EnumFileType FileType { get; set; }
-
+    
     // 配置文件格式
     public virtual FileConfigEnum.EnumFormatType FormatType { get; set; }
-
+    
     // 存储结构体数据
     protected abstract T ConfigData { get; }
-
-
+    
+    
     /// <summary>
     /// 初始化
     /// </summary>
     public void Init()
     {
         // 如果文件不存在，则创建文件
-        if (!File.Exists(FilePath))
-        {
-            File.Create(FilePath).Dispose();
+        if (File.Exists(FilePath)) return;
+        File.Create(FilePath).Dispose();
 
-            // 保存配置文件
-            Save();
-        }
+        // 保存配置文件
+        Save();
     }
 
     /// <summary>

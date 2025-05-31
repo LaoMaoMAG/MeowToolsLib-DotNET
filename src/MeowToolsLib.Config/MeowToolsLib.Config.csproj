@@ -4,6 +4,28 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <OutputType>Library</OutputType>
+        <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <Version>0.0.2-alpha</Version>
+        <Authors>LaoMaoMAG</Authors>
+        <Description>用于配置文件</Description>
+        <Copyright>LaoMaoMAG</Copyright>
+        <RepositoryUrl>https://github.com/LaoMaoMAG/MeowToolsLib-DotNET</RepositoryUrl>
+        <PackageIcon>icon.png</PackageIcon>
+        <PackageProjectUrl>https://github.com/LaoMaoMAG/MeowToolsLib-DotNET</PackageProjectUrl>
+        <Title>MeowToolsLib.Config</Title>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <Optimize>False</Optimize>
+      <DebugType>full</DebugType>
+      <IsAotCompatible>False</IsAotCompatible>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+      <DebugType>full</DebugType>
+      <IsAotCompatible>False</IsAotCompatible>
     </PropertyGroup>
 
     <ItemGroup>
@@ -16,7 +38,14 @@
     </ItemGroup>
 
     <ItemGroup>
-      
+      <None Include="..\..\LICENSE">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+      <None Include="..\..\icon.png">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
     </ItemGroup>
 
 </Project>
