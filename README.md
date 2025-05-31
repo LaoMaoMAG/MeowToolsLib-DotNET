@@ -1,4 +1,4 @@
-![MeowToolsLib-DotNET](https://socialify.git.ci/LaoMaoMAG/MeowToolsLib-DotNET/image?description=1&font=Jost&forks=1&issues=1&language=1&name=1&pattern=Circuit+Board&pulls=1&stargazers=1&tab=readme-ov-file%3Flanguage%3D1&theme=Auto)
+![MeowToolsLib-DotNET](https://socialify.git.ci/LaoMaoMAG/MeowToolsLib-DotNET/image?description=1&font=Jost&forks=1&issues=1&language=1&logo=https%3A%2F%2Fmeowartgame.com%2Fmeow-tools-lib-icon.png&name=1&pattern=Circuit+Board&pulls=1&stargazers=1&tab=readme-ov-file%3Flanguage%3D1&theme=Auto)
 
 # MeowToolsLib-DotNET
 
